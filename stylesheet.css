@@ -1,0 +1,295 @@
+/* @media (min-width: 1600px) {
+  .container {
+    max-width: 1500px;
+  }
+} */
+
+/* @media (min-width: 1900px) {
+  .container {
+    max-width: 1800px;
+  }
+} */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+/* !---------------------------------------------------- NAV ---------------------------------------------------------------- */
+
+
+.nav-item {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #373737 !important;
+}
+
+.nav-link {
+  position: relative;
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+}
+
+.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: #a8f9ff;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-out;
+}
+
+.nav-link:hover:before {
+  visibility: visible;
+  left: 0px;
+  transform: scaleX(0.9);
+  padding: 1px;
+}
+
+.navbar-brand {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  font-family: "Playfair Display SC", serif;
+  font-size: 1.5em;
+  color: #373737 !important;
+}
+
+
+/* !---------------------------------------------------- CAROUSEL ---------------------------------------------------------------- */
+
+.img-car {
+  width: auto;
+  height: 80vh;
+  max-height: 900px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.clr.scrolled {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+  transition: background-color 200ms linear;
+}
+
+/* .clr.scrolled .nav-link {
+  color:#555;
+} */
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 40%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-caption h2 {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 800;
+  font-size: 5em;
+}
+
+.carousel-caption h3 {
+  font-weight: 300;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h2 {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 800;
+    font-size: 3em;
+  }
+
+  .carousel-caption h3 {
+    font-weight: 300;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+}
+
+.btn {
+  margin-top:1rem;
+  border: none;
+  border-width: 3px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  font-size: 0.8em;
+
+  background-color:#fa7268 !important;
+  -webkit-box-shadow: -1px 0px 14px -4px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: -1px 0px 14px -4px rgba(0, 0, 0, 0.38);
+  box-shadow: -1px 0px 14px -4px rgba(0, 0, 0, 0.38);
+}
+
+.btn:hover {
+  border: none !important;
+  border-width: 3px;
+  background-color: #a8f9ff !important;
+
+}
+
+/* #fa7268-#a8f9ff-#373737-#efefef-#bc8f8f */
+
+
+/* !---------------------------------------------------- ABOUT US ---------------------------------------------------------------- */
+
+
+.header-img {
+max-width:100%;
+object-fit: cover;
+object-position: center;
+  /* -webkit-box-shadow: 9px 9px 11px -4px rgba(214,214,214,1);
+-moz-box-shadow: 9px 9px 11px -4px rgba(214,214,214,1);
+box-shadow: 9px 9px 11px -4px rgba(214,214,214,1); */
+
+-webkit-box-shadow: 9px 9px 0px -4px rgba(168,249,255,1);
+-moz-box-shadow: 9px 9px 0px -4px rgba(168,249,255,1);
+box-shadow: 9px 9px 0px -4px rgba(168,249,255,1);
+}
+
+
+
+.p-text {
+  font-family: "Open Sans",sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7;
+  text-align: left;
+  color: #777;
+  }
+  
+  .p-text {
+    font-family: "Open Sans",sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.7;
+    text-align: left;
+    color: -#373737;
+    }
+  
+  .headline-text {
+  
+    font-size: 1.75rem;
+    font-family: "Playfair Display",serif;
+  font-weight: 400;
+  line-height: 1.42857;
+  margin-bottom: .5rem;
+  color: #373737;
+  }
+  
+  
+  
+  .opis {
+  
+    font-size: 1.4rem;
+    font-family: "Playfair Display",serif;
+  font-weight: 400;
+  line-height: 1.42857;
+  margin-bottom: .5rem;
+  color: #373737;
+  
+  }
+  
+  hr {
+    background-color: #a8f9ff;
+    height: 0.75px;
+  }
+
+
+/* !---------------------------------------------------- POKOJE ---------------------------------------------------------------- */
+
+
+
+.header-main {
+  
+  font-size: 3rem;
+  font-family: "Playfair Display",serif;
+font-weight: 400;
+line-height: 1.42857;
+margin-bottom: .5rem;
+color: #373737;
+}
+
+
+
+#pokoje {
+  margin-top: 7rem;
+}
+
+
+thead {
+  text-transform: uppercase;
+
+}
+
+.img-pokoje {
+  /* -webkit-box-shadow: -9px -9px 0px -4px rgba(188,143,143,0.5);
+  -moz-box-shadow: -9px -9px 0px -4px rgba(188,143,143,0.5);
+  box-shadow: -9px -9px 0px -4px rgba(188,143,143,0.5); */
+  
+  -webkit-box-shadow: -10px 10px 0px -4px rgba(168,249,255,1);
+-moz-box-shadow: -10px 10px 0px -4px rgba(168,249,255,1);
+box-shadow: -10px 10px 0px -4px rgba(168,249,255,1);
+}
+
+.table thead th {
+  border-color:#a8f9ff;
+}
+
+
+
+
+
+
+/* !---------------------------------------------------- FOOTER ---------------------------------------------------------------- */
+
+.footer-heading-styl {
+font-family: "Open Sans" ,sans-serif;
+font-size: .75rem;
+font-weight: 600;
+margin-bottom: 1.5rem;
+letter-spacing: .05em;
+text-transform: uppercase;
+color:#fa7268;
+}
+
+.fp {
+
+    padding-right: 1.5rem;
+    color:#fa7268;
+
+}
+
+.adres p {
+  margin:0;
+}
+
+.sekcja-copyright {
+  font-size: 0.8rem;
+}
+
+.liabout {
+  font-size: 0.9rem;
+}
+
+
+/* #map {
+  width: 100%;
+  height: 450px;
+}
+/* Optional: Makes the sample page fill the window. */
+
